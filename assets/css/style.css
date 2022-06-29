@@ -31,7 +31,7 @@ h3{
     margin: auto;
 }
 div>img{
-    margin: 20px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
     padding: auto;
     width: 33%;
 }
@@ -39,8 +39,13 @@ div>img{
 li{
     padding: 20px;
 }
-.contact{
+a{
     text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 30px;
+    
+    
 }
 
 
@@ -57,12 +62,32 @@ li{
     content: "-AVAILABLE";
 }
 .fa {
-    padding: 30px;
-    font-size: 30px;
-    width: 100px;
-    text-align: center;
+    padding: 40px;
+    font-size: 400px;
+    width: 500px;
     text-decoration: none;
+    border: solid 1px;
+    border-color: rgb(206, 216, 212);}
+    
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-align: center;
+    
+    
 }
+.fa-instagram {
+    background: #f70303;
+    color: white;
+    text-align: center;
+    
+}
+.fa-youtube {
+    background: #ffffff;
+    color: rgb(255, 0, 0);
+    text-align: center;    
+}
+
 .fa:hover {
     opacity: 0.7;
 }
